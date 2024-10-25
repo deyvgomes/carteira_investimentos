@@ -19,13 +19,16 @@ Otimização: Usamos a biblioteca scipy.optimize para encontrar a alocação ót
 
 Fronteira Eficiente: 
 Mostra o equilíbrio entre retorno esperado e risco.
+
 Distribuição de Ativos: Exibe a alocação de ativos em gráfico de pizza.
+
 Evolução de Retorno e Risco: Representa graficamente o desempenho e o risco ao longo do tempo.
 
 
 # Tecnologias Utilizadas
 
 Linguagem: Python
+
 Bibliotecas:
 numpy e pandas: Manipulação de dados
 scipy.optimize: Função de otimização
@@ -90,8 +93,14 @@ Um gráfico de linha mostra a evolução do retorno e do risco ao longo do tempo
 
 # Estrutura do Projeto
 
-otimizacao_carteira.py: Código principal do projeto, incluindo funções para coleta de dados, otimização e visualização.
+main.py: Executa o fluxo principal do projeto, chamando as funções de coleta de dados, otimização de portfólio e visualização dos resultados.
+
+otimizacao.py: Contém a lógica para otimizar a alocação dos ativos com base no retorno e no risco esperado.
+
+visualizacao.py: Responsável pela geração dos gráficos, incluindo a alocação de ativos e a fronteira eficiente.
+
 README.md: Arquivo de documentação explicando o objetivo, abordagem e instruções de uso.
+
 requirements.txt: Lista de dependências para instalação.
 
 
